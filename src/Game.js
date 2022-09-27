@@ -19,7 +19,9 @@ function Game(){
             <p>
                 {maskedWord}
             </p>
-
+            <div id="head">O</div>
+            <div id="left-arm">/</div><div id="torso">|</div><div id="right-arm">\</div>
+            <div id="left-leg">/</div><div id="right-leg">\</div>
            <div>
             Pick an alphabet
             {alphabets.map((alphabet, index)=>
